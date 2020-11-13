@@ -20,3 +20,12 @@ print("나는 {}살입니다.".format(20))
 print("나는 {}색과 {}색을 좋아해요.".format("빨간","파란"))
 print("나는 {1}색과 {0}색을 좋아해요.".format("빨간","파란"))
 # 뒤에 숫자의 순서를 중괄호에 넣어서 위치 선택가능
+
+# 방법 3
+print("나는 {age}살이며, {color}색을 좋아해요.".format(age = 20, color ="빨간"))
+print("나는 {age}살이며, {color}색을 좋아해요.".format( color ="빨간", age = 20))
+
+#방법 4 (v3.6 이상~)
+age = 20 
+color = "빨간"
+print(f"나는 {age}살이며, {color}색을 좋아해요.")
