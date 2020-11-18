@@ -12,10 +12,9 @@
 # 축하합니다
 
 from random import*
-apply = [1,2,,20]
+apply = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
 shuffle(apply)
-print(apply)
-print(type(apply))
+
 apply=set(apply)
 first=sample(apply,1)
 first = set(first)
