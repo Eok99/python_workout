@@ -12,10 +12,13 @@
 # [ ] 50번째 손님(소요시간:16분)
 
 # 총 탑승 승객 : 2분
-waiting = list(range(5,51))
+from random import*
+time = range(5,51)
+waiting = sample(time,1) 
 
-print(waiting)
-print(customer)
-
-for i customer in range(1,51):
-    if 
+for customer in range(1,51): 
+  
+    if 15 >= waiting and waiting >=5:
+    print("1")
+    else:
+     print("2")
