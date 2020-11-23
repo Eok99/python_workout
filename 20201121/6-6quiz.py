@@ -16,9 +16,11 @@ from random import*
 time = range(5,51)
 waiting = sample(time,1) 
 
+
+
 for customer in range(1,51): 
   
-    if 15 >= waiting and waiting >=5:
-    print("1")
+    if 15 < waiting and waiting >5 :
+     print("1")
     else:
      print("2")
